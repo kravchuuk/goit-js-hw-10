@@ -1,0 +1,55 @@
+.form {
+  padding-top: 36px;
+  padding-left: 156px;
+}
+.label-delay {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.input-delay {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+.input-delay:hover,
+.input-delay:focus {
+  border: 1px solid #000;
+}
+
+.box-state {
+  padding: 0;
+  width: 360px;
+  height: 78px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-bottom: 24px;
+}
+.btn-create {
+  display: flex;
+  width: 360px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.btn-create:hover,
+.btn-create:focus {
+  background: #6c8cff;
+}
